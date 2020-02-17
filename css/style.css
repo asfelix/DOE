@@ -75,7 +75,7 @@ header button {
 section.form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
+    gap: 45px;
     align-items: center;
 
     background-color: #ff4f4f;

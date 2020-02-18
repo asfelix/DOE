@@ -26,12 +26,12 @@ Fique à vontade para ler os códigos e entender o que está acontecendo por tr�
 ## ☕ Funcionalidades
 - Captura de nome, e-mails e tipo sanguínios de voluntários
 
-## :pushpin: Tecnologias
+## 📌 Tecnologias
 Projeto desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [PostgresSQL](https://www.postgresql.org/)
 
-## Como executar o projeto:
+## 👨‍💻 Como executar o projeto:
 
 - clone o repositório: `git clone git@github.com:asfelix/DOE.git`
 - entre na pasta criada: `cd DOE`

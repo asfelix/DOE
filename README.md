@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/logo.png" width="250px" /><br>
+  <img src="public/img/logo.png" width="250px" /><br>
   Toda doação é importante!
 </h2>
 
@@ -14,13 +14,14 @@
 
 <br>
 
-## 🗒️ Nota
 
-A maratona teve o intuito de dar um start na vida das pessoas que procuram aprender programação, que pretendem iniciar neste mundo ou querem parar de procastinar. <br> 
-Fique à vontade para ler os códigos e entender o que está acontecendo por trás desta aplicação!
 
 ## 💻 O Projeto
 DOE - Site desenvolvido durante a MaratonaDev da [RocketSeat](https://rocketseat.com.br/) com o objetivo de armazenar e-mails de voluntários e seus típos sanguíneos em um banco de dados para contato posterior
+
+## 🗒️ Nota
+A maratona teve o intuito de dar um start na vida das pessoas que procuram aprender programação, que pretendem iniciar neste mundo ou querem parar de procastinar. <br> 
+Fique à vontade para ler os códigos e entender o que está acontecendo por trás desta aplicação!
 
 ## ☕ Funcionalidades
 - Captura de nome, e-mails e tipo sanguínios de voluntários

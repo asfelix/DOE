@@ -9,17 +9,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-
     <header>
-        <img class="logo" src="img/logo.png" alt="Imagem de DOE">
+        <img class="logo" src="/img/logo.png" alt="Imagem de DOE">
 
         <h2>A sua doação importa</h2>
 
@@ -32,7 +30,7 @@
 
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/" method="post">
+        <form action="" method="POST">
             <input type="text" name="name" id="name" placeholder="Nome completo">
             <input type="text" name="mail" id="mail" placeholder="e-mail">
             <input type="text" name="blood" id="blood" placeholder="Tipo Sanguíneo">
@@ -44,37 +42,22 @@
         <h2>Últimos <span>doadores</span>:</h2>
 
         <section class="donors">
+            {% for donor in donors %}
             <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Guido van Rossum</p>
+                <div class="blood">{{donor.blood}}</div>
+                <p>{{donor.name}}</p>
             </div>
-
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Alexsandro Felix</p>
-            </div>
-
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Kamila Hall Felix</p>
-            </div>
-
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Ada Lovelace</p>
-            </div>
+            {% endfor %}
         </section>
     </main>
 
-    <footer>Com Amor <i class="fas fa-heart" style="color: #FF4F4F;"></i> Alexsandro Felix</footer>
-
-
-
+    <footer>
+        Com Amor <i class="fas fa-heart" style="color: #FF4F4F;"></i> Alexsandro Felix
+    </footer>
 
     <!-- Javascript -->
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/d417644c19.js" crossorigin="anonymous"></script>
     
 </body>
-
 </html>
